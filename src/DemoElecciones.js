@@ -38,8 +38,8 @@ export const DemoElecciones = () => {
             <div className='main-content-voto'>
                 {
                     selected.isBool 
-                    ? <button onClick={handleClickCancel} className='btn-anular'>Anular Voto</button>
-                    : <button onClick={handleClickConfirm} className='btn-confirmar'>Votar</button>
+                    ? <button onClick={handleClickConfirm} className='btn-confirmar'>Votar</button>
+                    : <button onClick={handleClickCancel} className='btn-anular'>Anular Voto</button>
                 }   
             </div>
             <div className='main-footer'>
