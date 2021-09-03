@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 
 
-export const CardCandidatos = ({ partido, lista, grupo, nombre, isSelected}) => {
+export const CardCandidatos = ({ partido, lista, grupo, nombre}) => {
 
-    const [selected, setSelected] = useState({
-        isSelected
-    });
+    const [selected, setSelected] = useState({ isSelected: false });
 
-    
-    const handleClick = (e) =>{
+    const handleClick = e =>{
         e.preventDefault();
         setSelected({ isSelected: !selected.isSelected })
-    };
+    }
 
-    //console.log(selected);
+    console.log(selected);
     return (
         <div onClick={handleClick}>
             <h3>{partido}</h3>
@@ -29,9 +26,6 @@ export const CardCandidatos = ({ partido, lista, grupo, nombre, isSelected}) => 
             </div>
             <p className='card-container-nombre'>{nombre}</p>
 
-            <div>
-                {/*<button className='btn'>Votar</button>]*/}
-            </div>
         </div>
     )
 }

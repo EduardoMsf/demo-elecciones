@@ -3,21 +3,21 @@ export const candidatos = [
         "partido": "Partido Democracia Directa",
         "lista": "500",
         "grupo": "PDD",
-        "nombre": "Eudacio Palacios",
+        "nombre": "Candidato 1",
         "isSelected": false
     },
     {
         "partido": "Concertación de Paraguayos",
         "lista": "580",
         "grupo": "CP",
-        "nombre": "Agripina Olmedo",
+        "nombre": "Candidato 2",
         "isSelected": false
     },
     {
         "partido": "Movimiento Esperanza",
         "lista": "590",
         "grupo": "ME",
-        "nombre": "Ceferina Gomez",
+        "nombre": "Candidato 3",
         "isSelected": false
     }
 ]

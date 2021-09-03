@@ -4,21 +4,29 @@
 }
 
 .main-nav{
-    background-color: grey;
-    height: 130px;
-    display: flex;
+    background-color: rgb(0,23,98);
+    height: 50px;
+    padding-left: 10%;
 }
 
 .main-nav-logo{
-    margin-top: 30px;
-    border-radius: 10px;
-    margin-left: 10px;
     height: 50px;
+    width: 100px;
+    border-radius: 6px;
 }
-.main-nav-logo-pais{
-    height: 130px;
-    margin-right: 10px;
-    margin-left: 70%;
+
+.main-title-logos{
+    display: flex;
+}
+
+.main-section{
+    display: flex;
+    margin: auto;
+    height: 105px;
+}
+
+.main-section img{
+    display: block;
 }
 
 .main-title-content{
@@ -28,56 +36,35 @@
     border-radius: 10px;
     background-color: rgb(228, 159, 32);
     font-family:'Comic Neue',cursive;
-    font-size: 35px;
-    width: auto;
-    height: 70px;
-    margin-left: 20%;
-    margin-right: 20%;
+    font-size: 25px;
+    width: 60%;
+    height: 50px;
+    margin-left: 5%;
+    margin-right: 10%;
     margin-top: 20px;
-    margin-bottom: 30px;
-    
-}
-.main-list-content{
-    text-align:  center;
-    display: flex;
-    justify-content: center;
-}
-
-ul:hover{
-    border: 1px solid #0099CC;
-}
-
-
-ul{
-    float: left;
-    margin-left: auto;
-    padding: 15px;
-    width: 350px;
-}
-
-li{
-    display: block;
-    text-align: center;
-    justify-content: center;
-    text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
+    margin-bottom: 0px;
     
 }
 
 .main-footer{
-    text-align: right;
-    margin-top: 200px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+.main-footer-text{
+    display: flex;
+    width: 60%;
+    align-items: center;
+
 }
 
 .main-footer p{
     font-family: 'Comic Neue',cursive;
 }
 
-.main-footer-ciudadano{
-    text-align: center;
-}
+
 
 .card-container{
     display: flex;
@@ -87,7 +74,7 @@ li{
     margin-top: 15px;
 }
 .card-container-img{
-    height: 150px;
+    height: 140px;
 }
 
 .card-container-info{
@@ -96,6 +83,7 @@ li{
 
 .card-container-nombre{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .btn{
@@ -154,6 +142,71 @@ li{
 }
 
 .btn-confirmar:hover{
-    background: green;
-    border: 1px solid green;
+    background: rgb(94,195,4);
+    border: 1px solid rgb(94,195,4);
 }
+
+.main-explore{
+    display: flex;
+    margin-left: 15%;  
+    margin-top: 0%; 
+
+}
+
+.paraguay{
+    transform: rotate(20deg);
+}
+
+.main-explore div{
+    margin: 7px;
+}
+
+.main-explore-section:hover{
+    border: 1px solid rgb(94,195,4);
+}
+
+.main-explore-section-candidato1{
+    border: 1px solid rgb(94,195,4);
+    background-color: rgb(177, 252, 117);
+    opacity: .6;
+}
+
+.main-explore-section-candidato2{
+    border: 1px solid rgb(94,195,4);
+    background-color: rgb(177, 252, 117);
+    opacity: .6;
+}
+
+.main-explore-section-candidato3{
+    border: 1px solid rgb(94,195,4);
+    background-color: rgb(177, 252, 117);
+    opacity: .6;
+}
+
+
+.main-footer-img-left{
+    width: 20%;
+    margin-left:15px;
+}
+
+.main-footer-img-right{
+    width: 20%;
+    padding-right: 10%;
+}
+
+
+.main-footer img{
+    height: 70px;
+}
+
+.main-footer-text-right{
+    width: 50%;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.main-footer-text-left{
+    width: 50%;
+    text-align: left;
+}
+

@@ -2,15 +2,14 @@ import React from 'react';
 import { candidatos } from '../data/candidatos';
 import { CardCandidatos } from './CardCandidatos';
 
-export const ListaCandidatos = (props) => {
+export const ListaCandidatos = () => {
     return (
         <div>
             {
                 candidatos.map( candidato=>(
                     <ul>
                         <li>
-                            <CardCandidatos key={parseInt(candidato.lista)} { ...candidato}>
-                            </CardCandidatos>
+                            <CardCandidatos key={parseInt(candidato.lista)} { ...candidato} />
                         </li>
                     </ul>
                 ))
@@ -19,3 +18,4 @@ export const ListaCandidatos = (props) => {
         </div>
     )
 }
+//No se está usando este componente
